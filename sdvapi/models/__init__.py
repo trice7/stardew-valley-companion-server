@@ -13,3 +13,4 @@ from .season_event import SeasonEvent
 from .shop import Shop
 from .shop_item import ShopItem
 from .recipe_item import RecipeItem
+from .bundle_item import BundleItem
