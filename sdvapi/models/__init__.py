@@ -6,3 +6,10 @@ from .item import Item
 from .player import Player
 from .skill import Skill
 from .perk import Perk
+from .townie import Townie
+from .season import Season
+from .npc_event import NPCEvent
+from .season_event import SeasonEvent
+from .shop import Shop
+from .shop_item import ShopItem
+from .recipe_item import RecipeItem
