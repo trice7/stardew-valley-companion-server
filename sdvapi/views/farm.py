@@ -26,8 +26,17 @@ class FarmView(ViewSet):
     
     Returns -> JSON serialized list of farms -- 200 status"""
     
-    farm = Farm.objects.all()
-    serializer = FarmSerializer(farm, many=True)
+    farms = Farm.objects.all()
+    
+    # Code below will check to see if a GET all request queries a uid
+    # If True, it will change the value of farms to only include that users farms, otherwise it will return all farms
+    uid = request.query_params.get('uid')
+    if uid is not None:
+      player = Player.objects.get(uid=uid)
+      farms = Farm.objects.filter(owner=player.id)
+    # ------------------------------------------------
+    
+    serializer = FarmSerializer(farms, many=True)
     return Response(serializer.data)
   
   def create(self, request, pk):
