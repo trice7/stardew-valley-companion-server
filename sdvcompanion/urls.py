@@ -15,7 +15,24 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include
+from rest_framework import routers
+from sdvapi.views import BundleItemView, BundleView, CenterRoomView, FarmView, ItemTypeView, ItemView, NPCEventView, SeasonEventView, SeasonView, ShopView, TownieView
+
+router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'bundle_items', BundleItemView, 'bundle_item')
+router.register(r'bundles', BundleView, 'bundle')
+router.register(r'center_rooms', CenterRoomView, 'center_room')
+router.register(r'farms', FarmView, 'farm')
+router.register(r'item_types', ItemTypeView, 'item_type')
+router.register(r'items', ItemView, 'item')
+router.register(r'npc_events', NPCEventView, 'npc_event')
+router.register(r'season_events', SeasonEventView, 'season_event')
+router.register(r'seasons', SeasonView, 'season')
+router.register(r'shops', ShopView, 'shop')
+router.register(r'townies', TownieView, 'townie')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include(router.urls))
 ]
