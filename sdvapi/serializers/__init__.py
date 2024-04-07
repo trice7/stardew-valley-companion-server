@@ -13,3 +13,4 @@ from .shop_item_serializer import ShopItemSerializer
 from .shop_serializer import ShopSerializer
 from .skill_serializer import SkillSerializer
 from .townie_serializer import TownieSerializer
+from .season import SeasonSerializer
