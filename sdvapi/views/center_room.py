@@ -47,6 +47,9 @@ class CenterRoomView(ViewSet):
     return Response(serializer.data, status=status.HTTP_201_CREATED)
   
   def update(self, request, pk):
+    """Handles PUT requests for a community center room
+    
+    Returns -> JSON serialized response -- 200 status"""
     
     farm = Farm.objects.get(pk=request.data['save'])
     center_room = CenterRoom.objects.get(pk=pk)
