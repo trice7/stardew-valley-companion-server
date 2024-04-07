@@ -1,0 +1,34 @@
+[
+  {
+      "model": "sdvapi.season",
+      "pk": 1,
+      "fields": {
+          "name": "Spring",
+          "icon": "https://stardewvalleywiki.com/mediawiki/images/9/9c/Spring.png"
+      }
+  },
+  {
+      "model": "sdvapi.season",
+      "pk": 2,
+      "fields": {
+          "name": "Summer",
+          "icon": "https://stardewvalleywiki.com/mediawiki/images/8/85/Summer.png"
+      }
+  },
+  {
+      "model": "sdvapi.season",
+      "pk": 3,
+      "fields": {
+          "name": "Fall",
+          "icon": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Fall.png"
+      }
+  },
+  {
+      "model": "sdvapi.season",
+      "pk": 4,
+      "fields": {
+          "name": "Winter",
+          "icon": "https://stardewvalleywiki.com/mediawiki/images/a/a7/Winter.png"
+      }
+  }
+]

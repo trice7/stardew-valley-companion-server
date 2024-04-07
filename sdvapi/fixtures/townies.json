@@ -1,0 +1,146 @@
+[
+  {
+      "model": "sdvapi.townie",
+      "pk": 1,
+      "fields": {
+          "name": "Alex",
+          "icon": "https://stardewvalleywiki.com/mediawiki/images/7/73/Alex_Icon.png",
+          "portrait": "https://stardewvalleywiki.com/mediawiki/images/0/04/Alex.png",
+          "birth_month": 2,
+          "birth_day": 13,
+          "love_interest": true
+      }
+  },
+  {
+      "model": "sdvapi.townie",
+      "pk": 2,
+      "fields": {
+          "name": "Elliott",
+          "icon": "https://stardewvalleywiki.com/mediawiki/images/6/6f/Elliott_Icon.png",
+          "portrait": "https://stardewvalleywiki.com/mediawiki/images/b/bd/Elliott.png",
+          "birth_month": 3,
+          "birth_day": 5,
+          "love_interest": true
+      }
+  },
+  {
+    "model": "sdvapi.townie",
+    "pk": 3,
+    "fields": {
+        "name": "Harvey",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/7/7a/Harvey_Icon.png",
+        "portrait": "https://stardewvalleywiki.com/mediawiki/images/9/95/Harvey.png",
+        "birth_month": 4,
+        "birth_day": 14,
+        "love_interest": true
+    }
+  },
+  {
+    "model": "sdvapi.townie",
+    "pk": 4,
+    "fields": {
+        "name": "Sam",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/5/52/Sam_Icon.png",
+        "portrait": "https://stardewvalleywiki.com/mediawiki/images/9/94/Sam.png",
+        "birth_month": 2,
+        "birth_day": 17,
+        "love_interest": true
+    }
+  },
+  {
+    "model": "sdvapi.townie",
+    "pk": 5,
+    "fields": {
+        "name": "Sebastian",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/6/6a/Sebastian_Icon.png",
+        "portrait": "https://stardewvalleywiki.com/mediawiki/images/a/a8/Sebastian.png",
+        "birth_month": 4,
+        "birth_day": 10,
+        "love_interest": true
+    }
+  },
+  {
+    "model": "sdvapi.townie",
+    "pk": 6,
+    "fields": {
+        "name": "Shane",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/b/b4/Shane_Icon.png",
+        "portrait": "https://stardewvalleywiki.com/mediawiki/images/8/8b/Shane.png",
+        "birth_month": 1,
+        "birth_day": 20,
+        "love_interest": true
+    }
+  },
+  {
+    "model": "sdvapi.townie",
+    "pk": 7,
+    "fields": {
+        "name": "Abigail",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/6/63/Abigail_Icon.png",
+        "portrait": "https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png",
+        "birth_month": 3,
+        "birth_day": 13,
+        "love_interest": true
+    }
+  },
+  {
+    "model": "sdvapi.townie",
+    "pk": 8,
+    "fields": {
+        "name": "Emily",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Emily_Icon.png",
+        "portrait": "https://stardewvalleywiki.com/mediawiki/images/2/28/Emily.png",
+        "birth_month": 1,
+        "birth_day": 27,
+        "love_interest": true
+    }
+  },
+  {
+    "model": "sdvapi.townie",
+    "pk": 9,
+    "fields": {
+        "name": "Haley",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/f/f7/Haley_Icon.png",
+        "portrait": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Haley.png",
+        "birth_month": 1,
+        "birth_day": 14,
+        "love_interest": true
+    }
+  },
+  {
+    "model": "sdvapi.townie",
+    "pk": 10,
+    "fields": {
+        "name": "Leah",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Leah_Icon.png",
+        "portrait": "https://stardewvalleywiki.com/mediawiki/images/e/e6/Leah.png",
+        "birth_month": 4,
+        "birth_day": 23,
+        "love_interest": true
+    }
+  },
+  {
+    "model": "sdvapi.townie",
+    "pk": 11,
+    "fields": {
+        "name": "Maru",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/2/23/Maru_Icon.png",
+        "portrait": "https://stardewvalleywiki.com/mediawiki/images/f/f8/Maru.png",
+        "birth_month": 2,
+        "birth_day": 10,
+        "love_interest": true
+    }
+  },
+  {
+    "model": "sdvapi.townie",
+    "pk": 12,
+    "fields": {
+        "name": "Penny",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/b/bc/Penny_Icon.png",
+        "portrait": "https://stardewvalleywiki.com/mediawiki/images/a/ab/Penny.png",
+        "birth_month": 3,
+        "birth_day": 2,
+        "love_interest": true
+    }
+  }
+]
